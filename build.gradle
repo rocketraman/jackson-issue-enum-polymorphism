@@ -27,7 +27,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-  compile "com.fasterxml.jackson.datatype:jackson-datatype-jdk8"
+  compile "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.8.1"
   compile "com.fasterxml.jackson.module:jackson-module-kotlin:2.8.1"
 
   compile "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"

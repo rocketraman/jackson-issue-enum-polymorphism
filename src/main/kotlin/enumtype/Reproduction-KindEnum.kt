@@ -1,4 +1,4 @@
-package enum
+package enumtype
 
 import com.fasterxml.jackson.annotation.JsonSubTypes
 import com.fasterxml.jackson.annotation.JsonTypeInfo
@@ -44,5 +44,6 @@ fun main(args: Array<String>) {
        |  }
        |}""".trimMargin()
   )
+  // throws exception com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of enum.Invite, problem: argument type mismatch
   println(invite)
 }
